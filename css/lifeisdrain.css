@@ -12,7 +12,7 @@
 }
 
 body{
-    background: black;
+    background: no-repeat center/100% url("/images/woodbg.png");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,8 +21,8 @@ body{
 .white{
     color:white
 }
-.pink{
-    color:rgb(247,33,189)
+.gold{
+    color:rgb(238,229,109)
 }
 h1{
     color:white
