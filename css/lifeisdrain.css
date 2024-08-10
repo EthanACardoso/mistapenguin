@@ -12,7 +12,7 @@
 }
 
 body{
-    background: no-repeat center/100% url("/images/woodbg.png");
+    background: center/100% url("/images/woodbg.png");
     display: flex;
     justify-content: center;
     align-items: center;
