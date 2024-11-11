@@ -1,0 +1,351 @@
+﻿/* Link Style */
+a.LINKurl:link {
+	color: #6A7C98;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.LINKurl:visited {
+	color: #6A7C98;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.LINKurl:active {
+	color: #6A7C98;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.LINKurl:hover {
+	color: #D3DAE4;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:link {
+	color: #6A7C98;
+	text-decoration: none;
+}
+a:visited {
+	color: #6A7C98;
+	text-decoration: none;
+}
+a:active {
+	color: #6A7C98;
+	text-decoration: none;
+}
+a:hover {
+	color: #D3DAE4;
+	text-decoration: none;
+}
+/* Body & Containers */
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #141A21;
+	overflow: auto;
+	position: relative;
+	font-size: .7em;
+	font-weight: normal;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#wrapper {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 980px;
+	position: relative;
+	overflow: hidden;
+	background-image: url('../theme/bdyfill.jpg');
+	background-repeat: repeat-y;
+}
+#banner {
+	width: 980px;
+	height: 255px;
+	position: relative;
+	background-image: url('../theme/banner.jpg');
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+#banner-edit {
+	width: 840px;
+	height: 132px;
+	position: relative;
+	overflow: hidden;
+	padding: 0px;
+	margin-top: 28px;
+	margin-right: auto;
+	margin-left: auto;
+	list-style-type: none;
+	background-image: url('../theme/banner-face.jpg');
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+#container {
+	width: 884px;
+	position: relative;
+	overflow: hidden;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#col-1 {
+	padding: 0px;
+	margin: 0px;
+	width: 198px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+}
+#col-2 {
+	padding: 0px;
+	margin: 0px;
+	width: 488px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+}
+#col-3 {
+	margin: 0px;
+	padding: 0px;
+	width: 198px;
+	position: relative;
+	overflow: hidden;
+	float: right;
+}
+#foot {
+	width: 980px;
+	height: 280px;
+	position: relative;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	background-image: url('../theme/footer.jpg');
+	background-repeat: no-repeat;
+}
+#foot-Info-Left {
+	width: 496px;
+	height: 88px;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 90px;
+	margin-left: 74px;
+	color: #6A7C98;
+	float: left;
+}
+#foot-Marquee {
+	padding: 0px;
+	width: 426px;
+	height: 14px;
+	position: relative;
+	overflow: hidden;
+	text-decoration: none;
+	color: #6A7C98;
+	float: left;
+	margin-left: 145px;
+	margin-top: 29px;
+}
+#foot-Info-Right {
+	width: 156px;
+	height: 126px;
+	position: relative;
+	overflow: hidden;
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 92px;
+	text-decoration: none;
+	color: #6A7C98;
+	margin-right: 73px;
+	float: right;
+	text-align: center;
+	vertical-align: top;
+}
+.clearB {
+	clear: both;
+}
+.clearL {
+	clear: left;
+}
+.clearR {
+	clear: right;
+}
+.NavBox {
+	padding: 0px;
+	margin: 0px;
+	width: 198px;
+	position: relative;
+	overflow: hidden;
+}
+.NavHead {
+	width: 198px;
+	height: 52px;
+	position: relative;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	background-image: url('../theme/navHead.jpg');
+	background-repeat: no-repeat;
+}
+.NavFill {
+	background-image: url('../theme/navFill.jpg');
+	background-repeat: repeat-y;
+	width: 198px;
+	position: relative;
+	overflow: hidden;
+}
+.NavFooter {
+	background-image: url('../theme/navFooter.jpg');
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+	width: 198px;
+	height: 52px;
+	position: relative;
+	overflow: hidden;
+}
+.NavInfo {
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 136px;
+	position: relative;
+	overflow: hidden;
+	text-decoration: none;
+	color: #6A7C98;
+	text-align: center;
+}
+.NavCal {
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 136px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	background-color: #1B222C;
+}
+.NavHeadInfo {
+	margin: 20px auto 0px auto;
+	font-weight: bold;
+	color: #1b1b1b;
+	text-align: center;
+	position: relative;
+	width: 142px;
+	height: 13px;
+	overflow: hidden;
+	padding: 0px;
+}
+.CntBox {
+	padding: 0px;
+	margin: 0px;
+	width: 488px;
+	position: relative;
+	overflow: hidden;
+}
+.CntHead {
+	width: 488px;
+	height: 42px;
+	position: relative;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	background-image: url('../theme/cntHead.jpg');
+	background-repeat: no-repeat;
+}
+.CntFill {
+	background-image: url('../theme/cntFill.jpg');
+	background-repeat: repeat-y;
+	width: 488px;
+	position: relative;
+	overflow: hidden;
+}
+.CntFooter {
+	background-image: url('../theme/cntFooter.jpg');
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+	width: 488px;
+	height: 45px;
+	position: relative;
+	overflow: hidden;
+}
+.CntInfo {
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 460px;
+	position: relative;
+	overflow: hidden;
+	text-decoration: none;
+	color: #6A7C98;
+	text-align: left;
+}
+.CntHeadInfo {
+	margin: 20px auto 0px auto;
+	color: #D3DAE4;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px;
+	width: 420px;
+	height: 14px;
+	position: relative;
+	overflow: hidden;
+}
+/* Calendar */
+.main {
+	width: 136px;
+	border: 1px solid #1B222C;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.month {
+	background-color: #1B222C;
+	font: bold;
+	color: #6A7C98;
+}
+.daysofweek {
+	background-color: #1B222C;
+	font: bold;
+	color: #6A7C98;
+}
+.days {
+	color: #6A7C98;
+	background-color: #1B222C;
+	padding: 2px;
+}
+.days #today {
+	font-weight: bold;
+	color: #D3DAE4;
+}
+.nav-menu {
+	padding: 0px;
+	margin: 0px auto 0px auto;
+	width: 136px;
+	position: relative;
+	overflow: hidden;
+}
+.nav-menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.nav-menu li {
+	color: #6A7C98;
+	text-decoration: none;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+}
+.nav-menu li a {
+	line-height: 140%;
+	color: #6A7C98;
+	text-decoration: none;
+	text-align: left;
+}
+.nav-menu li a:hover {
+	line-height: 140%;
+	color: #D3DAE4;
+	text-decoration: none;
+	text-align: left;
+}
